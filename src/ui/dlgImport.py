@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from PySide6.QtWidgets import QDialog, QDialogButtonBox
-from ui_dlgImport import Ui_Dialog
+from src.ui.generated.ui_dlgImport import Ui_Dialog
 
 __all__ = ['dlgImport']
 
@@ -11,5 +11,5 @@ class dlgImport(QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
 
-        self.ui.buttonBox.button(QDialogButtonBox.Ok).setText('导入')
-        self.ui.buttonBox.button(QDialogButtonBox.Cancel).setText('取消')
+        self.ui.buttonBox.button(QDialogButtonBox.Ok).setText(self.tr('导入'))
+        self.ui.buttonBox.button(QDialogButtonBox.Cancel).setText(self.tr('取消'))

@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 from html import escape
 
-from PySide6.QtWidgets import QDialog
 from PySide6.QtCore import Slot
 from PySide6.QtGui import QTextCursor
+from PySide6.QtWidgets import QDialog
 
-from threads import DebugThread
-from ui_dlgDebug import Ui_Dialog
-from utils import time_repr
-
+from src.core.threads import DebugThread
+from src.core.utils import time_repr
+from src.ui.generated.ui_dlgDebug import Ui_Dialog
 
 __all__ = ['dlgDebug']
 
@@ -43,5 +42,5 @@ class dlgDebug(QDialog):
     def _success(self, response_time):
         self._insertHtml(f'<font color="green"><b>成功 [{self.currentIP}]：响应时间 {time_repr(response_time)}</b></font><br/>')
 
-    def _fail(self, reason):
-        self._insertHtml(f'<font color="red"><b>失败 [{self.currentIP}]：{escape(reason)}</b></font><br/>')
+    def _fail(self, error_type, message):
+        self._insertHtml(f'<font color="red"><b>失败 [{self.currentIP}]：({error_type}) {escape(message)}</b></font><br/>')

@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'dlgAbout.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.0
+## Created by: Qt User Interface Compiler version 6.6.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -85,11 +85,11 @@ class Ui_Dialog(object):
         self.gtdbLink.setText(QCoreApplication.translate("Dialog", u"\u5b98\u65b9 IP \u5e93", None))
         self.gtdbLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/gtdb", None))
         self.licenseLink.setText(QCoreApplication.translate("Dialog", u"\u7248\u6743\u6761\u6b3e\uff08GPLv3\uff09", None))
-        self.licenseLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/GoogleTranslate_IPFinder/blob/main/LICENSE", None))
+        self.licenseLink.setDescription(QCoreApplication.translate("Dialog", u"https://www.gnu.org/licenses/gpl-3.0.html", None))
         self.readmeLink.setText(QCoreApplication.translate("Dialog", u"README \u5e2e\u52a9\u6587\u4ef6", None))
         self.readmeLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/GoogleTranslate_IPFinder/blob/main/README.md", None))
         self.btnUpdate.setText(QCoreApplication.translate("Dialog", u"\u68c0\u67e5\u66f4\u65b0", None))
-        self.labCopyright.setText(QCoreApplication.translate("Dialog", u"Copyright \u00a9 GoodCoder666 2024", None))
+        self.labCopyright.setText(QCoreApplication.translate("Dialog", u"Copyright \u00a9 GoodCoder666 2022-2026", None))
         self.label.setText(QCoreApplication.translate("Dialog", u"<html><head/><body><p>\u611f\u8c22\u4f7f\u7528<span style=\" font-weight:700;\"> GoogleTranslate_IPFinder</span>\uff01\u6b22\u8fce\u5728 <a href=\"https://github.com/GoodCoder666/GoogleTranslate_IPFinder/issues\"><span style=\" text-decoration: underline; color:#0000ff;\">issues</span></a> \u6307\u51fa bug \u6216\u63d0\u51fa\u4fee\u6539\u610f\u89c1\u3002 </p><p>\u5728 <a href=\"https://github.com/GoodCoder666/GoogleTranslate_IPFinder\"><span style=\" text-decoration: underline; color:#0000ff;\">GitHub</span></a> \u4e0a Star \u6b64\u9879\u76ee\uff1a<a href=\"https://github.com/GoodCoder666/GoogleTranslate_IPFinder\"><span style=\" text-decoration: underline; color:#0000ff;\">GoodCoder666/GoogleTranslate_IPFinder</span></a></p></body></html>", None))
     # retranslateUi
 

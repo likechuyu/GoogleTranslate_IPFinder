@@ -46,7 +46,7 @@
          <string>版权条款（GPLv3）</string>
         </property>
         <property name="description">
-         <string>https://github.com/GoodCoder666/GoogleTranslate_IPFinder/blob/main/LICENSE</string>
+         <string>https://www.gnu.org/licenses/gpl-3.0.html</string>
         </property>
        </widget>
       </item>
@@ -73,7 +73,7 @@
    <item row="3" column="0">
     <widget class="QLabel" name="labCopyright">
      <property name="text">
-      <string>Copyright © GoodCoder666 2024</string>
+      <string>Copyright © GoodCoder666 2022-2026</string>
      </property>
     </widget>
    </item>

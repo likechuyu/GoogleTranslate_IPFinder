@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'MainWindow.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.0
+## Created by: Qt User Interface Compiler version 6.6.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -21,7 +21,7 @@ from PySide6.QtWidgets import (QAbstractItemView, QApplication, QHBoxLayout, QHe
     QMenu, QMenuBar, QPushButton, QSizePolicy,
     QStatusBar, QTableWidget, QTableWidgetItem, QVBoxLayout,
     QWidget)
-import res_rc
+from . import res_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -132,6 +132,7 @@ class Ui_MainWindow(object):
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
+        self.statusbar.setSizeGripEnabled(False)
         MainWindow.setStatusBar(self.statusbar)
 
         self.menubar.addAction(self.optionsMenu.menuAction())
